@@ -7,6 +7,23 @@
 # When executed, this program should print out two random
 # numbers, one on each line, simulating the roll of two
 # dice.
+roll_one = rand(1..6)
+roll_two = rand(1..6)
+puts roll_one
+puts roll_two
+
+total = roll_one + roll_two
+
+puts "the total is: #{total}"
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+elsif total == 2 || total == 3 || total =12
+    puts "YOU LOSE!"
+else "THE POINT IS #{number}"
+    end
+
+   
 # If the numbers add up to 7 or 11, write a message that reads
 # "YOU WIN!", if they add up to 2, 3, or 12, write a message
 # that reads "YOU LOSE!", otherwise, write a message that
@@ -20,13 +37,13 @@
 # if dinner == "tacos" && dessert == "ice cream"
 
 # 1. set the first die and write it to the screen
-die1 = rand(1..6)
-puts die1
+#die1 = rand(1..6)
+#puts die1
 
 # 2. set the second die and write it to the screen
-die2 = rand(1..6)
-puts die2
+#die2 = rand(1..6)
+#puts die2
 
 # 3. create a variable for the total and write it to the screen
-total = die1 + die2
-puts "The total is: #{total}"
+#total = die1 + die2
+#puts "The total is: #{total}"

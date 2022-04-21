@@ -26,7 +26,45 @@ end
 
 
 # If/Else Conditional Logic
+your_team_score= 105
+other_team_score = 99
+if your_team_score > other_team_score
+    puts "Yay, you won!!!"
+else
+    puts "Boooo!"
+end
+
 
 # Elsif Conditional Logic
+your_team_score= 99
+her_team_score = 99
+if your_team_score > other_team_score
+    puts "Yay, you won!!!"
+elsif your_team_score == other_team_score
+    puts "It's a tie"
+else
+    puts "Boooo!"
+end
 
 # Combining Expressions
+username = "ben"
+real_username = "ben"
+password = "puppies"
+real_password = "puppies"
+if username == real_username && password == real_password
+puts "logged in!" 
+end
+username = "ben"
+real_username = "ben"
+password = "puppies"
+real_password = "puppie"
+if username == real_username && password == real_password
+puts "logged in!" 
+elsif username == real_username && password != real_password
+puts "wrong password"
+else
+puts "try again" 
+end
+# or is || and && is and
+
+
